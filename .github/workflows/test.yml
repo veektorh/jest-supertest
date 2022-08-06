@@ -7,8 +7,6 @@ on:
       version:
         description: Manual Trigger
         required: false
-  schedule:
-    - cron: "0 0 1 ? * *"
 jobs:
   build:
     runs-on: ubuntu-latest
